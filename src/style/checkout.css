@@ -1,0 +1,66 @@
+.billing__form .form__group input {
+    border: 1px solid #088178;
+}
+
+.checkout__cart {
+    padding: 20px;
+    background: #088178;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.checkout__cart h6, h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout__cart h6 {
+    margin-bottom: 20px;
+}
+
+.checkout__cart h4 {
+    border-top: 1px solid rgba(221, 221, 221, 0.253);
+    padding-top: 20px;
+}
+
+
+.auth__btn {
+    background-color: #fff;
+    color: #222;
+    font-weight: 600;
+}
+
+.check a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+    
+}
+
+.check {
+    text-align: center;
+    font-size: 30px;
+}
+
+.check .icon {
+    font-size: 50px;
+    color: #c34ca7;
+}
+
+.check p {
+    font-weight: bold;
+    color: #c34ca7;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #088178;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    min-width: 150px;
+    padding: 10px 40px;
+}

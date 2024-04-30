@@ -1,0 +1,24 @@
+.aut__form {
+    background: #088178;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.aut__btn {
+    background: #fff;
+    color: #088178;
+    font-weight: 600;
+}
+
+.aut__form p {
+    margin-top: 30px;
+}
+
+.aut__form p a {
+    color: rgba(225, 225, 225, 0.735);
+}
+
+.aut__form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
+}

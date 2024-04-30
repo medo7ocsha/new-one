@@ -1,0 +1,102 @@
+.table tr td img {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: contain;
+}
+
+td i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+td,
+th {
+    color: #088178;
+    font-weight: 600;
+}
+
+
+    .table tr td img {
+        width: 90px !important;
+        height: 100px !important;
+        object-fit: contain;
+        
+    }
+    
+    td i {
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    td,
+    th {
+        color: #088178;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .lol {
+        display: flex;
+        padding: 15px;
+    }
+    .lol h6 {
+        margin: 15px;
+    }
+    .ll button {
+        display: flex;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .table tr td img {
+        width: 90px !important;
+        height: 100px !important;
+        object-fit: contain;
+        
+    }
+    
+    td i {
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    td,
+    th {
+        color: #088178;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .lol {
+        display: flex;
+        padding: 15px;
+    }
+    .lol h6 {
+        margin: 15px;
+    }
+    .ll button {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+    .table tr td img {
+        width: 80px !important;
+        height: 80px !important;
+        object-fit: contain;
+        margin-left: -25px;
+    }
+
+    
+    
+    td i {
+        cursor: pointer;
+    }
+    
+    td,
+    th {
+        color: #088178;
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
+}
