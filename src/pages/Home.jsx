@@ -55,6 +55,13 @@ const Home = () => {
       <section className="hero__section">
         <Container>
           <Row>
+
+          <Col lg="6" md="6">
+              <div className="hero__img">
+                <img src={heroImg} alt="" />
+              </div>
+            </Col>
+            
             <Col lg="6" md="6">
               <div className="hero__content">
                 <p className="hero__subtitle">افخم واجمل القطع الاثاث القديم </p>
@@ -69,11 +76,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col lg="6" md="6">
-              <div className="hero__img">
-                <img src={heroImg} alt="" />
-              </div>
-            </Col>
+            
           </Row>
         </Container>
       </section>

@@ -53,7 +53,7 @@
 .hero__img {
     height: 100%;
     width: 700px;
-    margin-left: 50px;
+    margin-left: -150px;
     background-size: cover;
 
 }

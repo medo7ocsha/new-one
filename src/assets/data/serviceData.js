@@ -20,7 +20,7 @@ const serviceData = [
   {
     icon: "ri-exchange-dollar-line",
     title: " ضمان العودة",
-    subtitle: ".يمكنك إرجاع المشتريات في غضون 12 ساعة",
+    subtitle: ".يمكنك إرجاع المشتريات في اي وقت",
     bg: "#d6e5fb",
   },
 ];

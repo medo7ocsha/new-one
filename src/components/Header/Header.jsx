@@ -26,6 +26,10 @@ const nav__links = [
     display: "المتجر",
   },
   {
+      path: "place",
+      display: "من نحن",
+  },
+  {
     path: "home",
     display: "الرئسية",
   },
@@ -84,28 +88,9 @@ const Header = () => {
       <Container>
         <Row>
           <div className="nav__wrapper">
-            <div className="logo">Robabekia</div>
-
-            <div className="navigation" ref={menuRef} onClick={menuToggle}>
-              <ul className="menu">
-                {nav__links.map((item, index) => (
-                  <li className="nav__item" key={index}>
-                    <NavLink
-                      to={item.path}
-                      className={(navclass) =>
-                        navclass.isActive ? "nav__action " : ""
-                      }
-                    >
-                      {item.display}
-                    </NavLink>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="nav__icons">
+          <div className="nav__icons">
               <span className="fav__icon">
-                <i class="ri-heart-line"></i>
+                <a href="/logout"><i onClick={logout} class="ri-heart-line"></i></a>
                 <span className="badge">1</span>
               </span>
               <span className="cart__icon" onClick={navigateToCart}>
@@ -114,12 +99,12 @@ const Header = () => {
               </span>
 
               <div className="profile">
-                <motion.img
+               <a href="/login"> <motion.img
                   whileTap={{ scale: 1.2 }}
                   src={currentUser ? currentUser.photoURL : userIcon}
                   alt=""
-                  onClick={toggleProfileActions}
-                />
+                  onClick={ toggleProfileActions}
+                /></a>
 
                 <div
                   className="profile__actions"
@@ -142,6 +127,24 @@ const Header = () => {
                 </span>
               </div>
             </div>
+
+            <div className="navigation" ref={menuRef} onClick={menuToggle}>
+              <ul className="menu">
+                {nav__links.map((item, index) => (
+                  <li className="nav__item" key={index}>
+                    <NavLink
+                      to={item.path}
+                      className={(navclass) =>
+                        navclass.isActive ? "nav__action " : ""
+                      }
+                    >
+                      {item.display}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="logo">Robabekia</div>
           </div>
         </Row>
       </Container>

@@ -126,11 +126,10 @@ const AddProducts = () => {
                         onChange={(e) => setEnterCategory(e.target.value)}
                       >
                         <option>Select Category</option>
-                        <option value="dress">Dress</option>
-                        <option value="shirt">Shirt</option>
-                        <option value="shose">Shose</option>
-                        <option value="bags">Bags</option>
-                        <option value="jenes">Jenes</option>
+                        <option value="dress">اثاث</option>
+                        <option value="shirt">زخارف</option>
+                        <option value="shose">انتيكات</option>
+                        <option value="bags">لوحات</option>
                       </select>
                     </FormGroup>
                   </div>

@@ -13,7 +13,7 @@
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: left;
     font-size: 30px;
     column-gap: 8px;
     color: #088178;
@@ -99,10 +99,11 @@
     background: #E3E6F3;
     line-height: 30px;
     cursor: pointer;
+    display: none;
 }
 
 .show__profileActions {
-    display: none;
+    display: block;
 }
 
 
