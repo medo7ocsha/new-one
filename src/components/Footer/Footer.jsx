@@ -84,7 +84,7 @@ const Footer = () => {
                   <span>
                     <i class="ri-phone-line"></i>
                   </span>
-                  <p></p>
+                  <p>+20 1078964356</p>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
